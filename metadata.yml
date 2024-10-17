@@ -1,0 +1,26 @@
+Identifier: eos3ujl
+Slug: mtb-permeability
+Status: In progress
+Title: Mtb Permeability
+Description: This model predicts the probability of a compound of passing the Mtb
+  cell wall membrane. The classifier (permeable vs not permeable) model was trained
+  on a dataset of 5368 molecules. It is a simple classifier (SVC) using Mordred descriptors.
+Mode: Pretrained
+Task: Classification
+Input: Compound
+Input Shape: Single
+Output: Probability
+Output Type: Float
+Output Shape: Single
+Interpretation: Probability of a compound passing the Mtb cell wall membrane
+Tag:
+- M.tuberculosis
+- Permeability
+Publication: https://link.springer.com/article/10.1007/s11030-024-10952-3
+Source Code: https://github.com/PGlab-NIPER/MTB_Permeability
+License: GPL-3.0-or-later
+DockerHub: https://hub.docker.com/r/ersiliaos/eos3ujl
+Docker Architecture:
+- AMD64
+- ARM64
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ujl.zip
