@@ -1,6 +1,7 @@
 name: Upload model to DockerHub
 on:
   workflow_dispatch:
+  
   workflow_run:
     workflows: ["Upload model to S3"]
     types:
@@ -21,7 +22,7 @@ jobs:
 
   upload-legacy-bentoml:
     needs: [upload-multi-stage-condapack]
-    if: ${{ needs.upload-multi-stage-condapack.result == 'failure' }}
+    if: ${{ failure() }}
     uses: ./.github/workflows/upload-bentoml.yml
     secrets: inherit
     with:
