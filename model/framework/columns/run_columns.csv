@@ -1,0 +1,2 @@
+name,type,direction,description
+permeability_probability,float,high,Probability of a compound permeating through the Mycobacterium tuberculosis cell wall
