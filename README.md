@@ -43,10 +43,6 @@ Below are the **Output Columns** of the model:
 - **Environment Size (Mb):** `721`
 - **Image Size (Mb):** `917.2`
 
-**Computational Performance (seconds):**
-- 4 inputs: `35.94`
-- 20 inputs: `34.77`
-- 100 inputs: `84.27`
 
 ### References
 - **Source Code**: [https://github.com/PGlab-NIPER/MTB_Permeability](https://github.com/PGlab-NIPER/MTB_Permeability)
