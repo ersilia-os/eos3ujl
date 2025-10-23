@@ -2,10 +2,10 @@ Identifier: eos3ujl
 Slug: mtb-permeability
 Status: Ready
 Title: Mtb cell wall permeability
-Description: This model predicts the probability of a compound of passing the Mycobacterium
-  tuberculosis cell wall membrane. The classifier (permeable vs not permeable) model
-  was trained on a dataset of 5368 molecules. It is a simple classifier (SVC) using
-  Mordred descriptors.
+Description: This model predicts the probability of a compound of passing the 
+  Mycobacterium tuberculosis cell wall membrane. The classifier (permeable vs 
+  not permeable) model was trained on a dataset of 5368 molecules. It is a 
+  simple classifier (SVC) using Mordred descriptors.
 Deployment:
   - Local
 Source: Local
@@ -15,12 +15,12 @@ Subtask: Activity prediction
 Input:
   - Compound
 Input Dimension: 1
-Input Shape: Single
 Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Probability score of a compound passing the Mtb cell wall membrane
+Interpretation: Probability score of a compound passing the Mtb cell wall 
+  membrane
 Tag:
   - M.tuberculosis
   - Permeability
@@ -48,4 +48,5 @@ Computational Performance 2: 30.87
 Computational Performance 3: 83.55
 Computational Performance 4: 718.22
 Computational Performance 5: -1.0
+Input Shape: Single
 Docker Pack Method: FastAPI
