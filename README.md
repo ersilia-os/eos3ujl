@@ -2,8 +2,7 @@
 
 This model predicts the probability of a compound of passing the Mycobacterium tuberculosis cell wall membrane. The classifier (permeable vs not permeable) model was trained on a dataset of 5368 molecules. It is a simple classifier (SVC) using Mordred descriptors.
 
-This model was incorporated on 2024-10-16.
-
+This model was incorporated on 2024-10-16.Last packaged on 2025-10-23.
 
 ## Information
 ### Identifiers
@@ -42,12 +41,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `150`
 - **Environment Size (Mb):** `741`
-- **Image Size (Mb):** `917.12`
+- **Image Size (Mb):** `1003.57`
 
 **Computational Performance (seconds):**
-- 10 inputs: `34.64`
-- 100 inputs: `83.55`
-- 10000 inputs: `-1`
+- 10 inputs: `29.16`
+- 100 inputs: `39.13`
+- 10000 inputs: `1125.45`
 
 ### References
 - **Source Code**: [https://github.com/PGlab-NIPER/MTB_Permeability](https://github.com/PGlab-NIPER/MTB_Permeability)
