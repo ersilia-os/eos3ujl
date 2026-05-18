@@ -50,7 +50,7 @@ Below are the **Output Columns** of the model:
 
 ### References
 - **Source Code**: [https://github.com/PGlab-NIPER/MTB_Permeability](https://github.com/PGlab-NIPER/MTB_Permeability)
-- **Publication**: [https://link.springer.com/article/10.1007/s11030-024-10952-3](https://link.springer.com/article/10.1007/s11030-024-10952-3)
+- **Publication**: [https://doi.org/10.1007/s11030-024-10952-3](https://doi.org/10.1007/s11030-024-10952-3)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2024`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
