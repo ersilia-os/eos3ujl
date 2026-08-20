@@ -2,7 +2,10 @@ Identifier: eos3ujl
 Slug: mtb-permeability
 Status: Ready
 Title: Mtb cell wall permeability
-Description: Predicts passage across the Mycobacterium tuberculosis cell wall, an unusually thick mycolic acid barrier that blocks many otherwise active compounds and helps explain why tuberculosis chemotherapy remains so protracted. Banerjee and colleagues compiled permeability measurements and compared several machine learning approaches, selecting the best-performing combination of descriptors and algorithm. Permeability is necessary but not sufficient for antitubercular activity, so a high score indicates access rather than efficacy.
+Description: This model predicts the probability of a compound of passing the 
+  Mycobacterium tuberculosis cell wall membrane. The classifier (permeable vs 
+  not permeable) model was trained on a dataset of 5368 molecules. It is a 
+  simple classifier (SVC) using Mordred descriptors.
 Deployment:
   - Local
 Source: Local
@@ -16,7 +19,8 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Probability that a compound permeates the Mycobacterium tuberculosis cell wall.
+Interpretation: Probability score of a compound passing the Mtb cell wall 
+  membrane
 Tag:
   - Antimicrobial activity
   - Permeability
