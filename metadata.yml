@@ -2,10 +2,7 @@ Identifier: eos3ujl
 Slug: mtb-permeability
 Status: Ready
 Title: Mtb cell wall permeability
-Description: This model predicts the probability of a compound of passing the 
-  Mycobacterium tuberculosis cell wall membrane. The classifier (permeable vs 
-  not permeable) model was trained on a dataset of 5368 molecules. It is a 
-  simple classifier (SVC) using Mordred descriptors.
+Description: Predicts passage across the Mycobacterium tuberculosis cell wall, an unusually thick mycolic acid barrier that blocks many otherwise active compounds and helps explain why tuberculosis chemotherapy remains so protracted. Banerjee and colleagues compiled permeability measurements and compared several machine learning approaches, selecting the best-performing combination of descriptors and algorithm. Permeability is necessary but not sufficient for antitubercular activity, so a high score indicates access rather than efficacy.
 Deployment:
   - Local
 Source: Local
@@ -19,8 +16,7 @@ Output:
   - Score
 Output Dimension: 1
 Output Consistency: Fixed
-Interpretation: Probability score of a compound passing the Mtb cell wall 
-  membrane
+Interpretation: Probability that a compound permeates the Mycobacterium tuberculosis cell wall.
 Tag:
   - Antimicrobial activity
   - Permeability
@@ -32,7 +28,7 @@ Publication Type: Peer reviewed
 Publication Year: 2024
 Publication: https://doi.org/10.1007/s11030-024-10952-3
 Source Code: https://github.com/PGlab-NIPER/MTB_Permeability
-License: GPL-3.0-or-later
+License: None
 Contributor: miquelduranfrigola
 Incorporation Date: '2024-10-16'
 Last Packaging Date: '2025-10-23'
@@ -52,4 +48,3 @@ Computational Performance 4: 237.74
 Computational Performance 5: 1125.45
 Input Shape: Single
 Docker Pack Method: FastAPI
-Publication: https://doi.org/10.1007/s11030-024-10952-3

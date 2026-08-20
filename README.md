@@ -1,6 +1,6 @@
 # Mtb cell wall permeability
 
-This model predicts the probability of a compound of passing the Mycobacterium tuberculosis cell wall membrane. The classifier (permeable vs not permeable) model was trained on a dataset of 5368 molecules. It is a simple classifier (SVC) using Mordred descriptors.
+Predicts passage across the Mycobacterium tuberculosis cell wall, an unusually thick mycolic acid barrier that blocks many otherwise active compounds and helps explain why tuberculosis chemotherapy remains so protracted. Banerjee and colleagues compiled permeability measurements and compared several machine learning approaches, selecting the best-performing combination of descriptors and algorithm. Permeability is necessary but not sufficient for antitubercular activity, so a high score indicates access rather than efficacy.
 
 This model was incorporated on 2024-10-16.Last packaged on 2025-10-23.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-10-16.Last packaged on 2025-10-23.
 ### Output
 - **Output Dimension:** `1`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability score of a compound passing the Mtb cell wall membrane
+- **Interpretation:** Probability that a compound permeates the Mycobacterium tuberculosis cell wall.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
@@ -56,7 +56,7 @@ Below are the **Output Columns** of the model:
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
 ### License
-This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [GPL-3.0-or-later](LICENSE) license.
+This package is licensed under a [GPL-3.0](https://github.com/ersilia-os/ersilia/blob/master/LICENSE) license. The model contained within this package is licensed under a [None](LICENSE) license.
 
 **Notice**: Ersilia grants access to models _as is_, directly from the original authors, please refer to the original code repository and/or publication if you use the model in your research.
 
