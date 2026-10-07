@@ -1,6 +1,6 @@
 # Mtb cell wall permeability
 
-Predicts passage across the Mycobacterium tuberculosis cell wall, an unusually thick mycolic acid barrier that blocks many otherwise active compounds and helps explain why tuberculosis chemotherapy remains so protracted. Banerjee and colleagues compiled permeability measurements and compared several machine learning approaches, selecting the best-performing combination of descriptors and algorithm. Permeability is necessary but not sufficient for antitubercular activity, so a high score indicates access rather than efficacy.
+Predicts passage across the Mycobacterium tuberculosis cell wall, a thick mycolic acid barrier that blocks many otherwise active compounds and helps explain why tuberculosis chemotherapy is so protracted. Banerjee and colleagues labelled 5,368 compounds permeable or impermeable from published antimycobacterial assay data in PubChem, compared four algorithms over RDKit and Mordred descriptors, and found a support vector classifier best, near 80% accuracy on held-out data. Permeability is necessary but not sufficient for activity, so a high score means access rather than efficacy.
 
 This model was incorporated on 2024-10-16.Last packaged on 2025-10-23.
 
