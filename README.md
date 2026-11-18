@@ -2,7 +2,8 @@
 
 Predicts passage across the Mycobacterium tuberculosis cell wall, a thick mycolic acid barrier that blocks many otherwise active compounds and helps explain why tuberculosis chemotherapy is so protracted. Banerjee and colleagues labelled 5,368 compounds permeable or impermeable from published antimycobacterial assay data in PubChem, compared four algorithms over RDKit and Mordred descriptors, and found a support vector classifier best, near 80% accuracy on held-out data. Permeability is necessary but not sufficient for activity, so a high score means access rather than efficacy.
 
-This model was incorporated on 2024-10-16.Last packaged on 2025-10-23.
+This model was incorporated on 2024-10-16.
+Last packaged on 2025-10-23.
 
 ## Information
 ### Identifiers
@@ -14,7 +15,7 @@ This model was incorporated on 2024-10-16.Last packaged on 2025-10-23.
 - **Subtask:** `Activity prediction`
 - **Biomedical Area:** `Tuberculosis`
 - **Target Organism:** `Mycobacterium tuberculosis`
-- **Tags:** `M.tuberculosis`, `Permeability`
+- **Tags:** `Antimicrobial activity`, `Permeability`
 
 ### Input
 - **Input:** `Compound`
@@ -37,6 +38,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3ujl](https://hub.docker.com/r/ersiliaos/eos3ujl)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ujl.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3ujl.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3ujl_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3ujl_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `150`
